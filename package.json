@@ -1,0 +1,24 @@
+{
+  "name": "generatePDF",
+  "version": "1.0.0",
+  "description": "Servicio en express que genera un PDF con la data ingresada en un form.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleafarx/generatePDF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleafarx/generatePDF/issues"
+  },
+  "homepage": "https://github.com/oleafarx/generatePDF#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "html-pdf": "^3.0.1"
+  }
+}
