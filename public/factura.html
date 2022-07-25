@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Factura</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-10 ">
+                <h1>Factura</h1>
+            </div>
+            <div class="col-xs-2">
+                <img class="img img-responsive" src="https://www.svgrepo.com/show/28687/store.svg" alt="Logotipo">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-10">
+                <h1 class="h6">{{nombreCliente}}</h1>
+            </div>
+            <div class="col-xs-2 text-center">
+                <strong>Fecha</strong>
+                <br>
+                {{fecha}} <br>
+                <strong>Factura No.</strong>
+                <br>
+                {{facturaNum}}
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center" style="margin-bottom: 2rem;">
+            <div class="col-xs-6">
+                <h1 class="h2">Cliente</h1>
+                <strong> {{nombreCliente}} </strong>
+            </div>
+            <div class="col-xs-6">
+                <h1 class="h2">Remitente</h1>
+                <strong> {{nombreVendedor}} </strong>
+            </div>
+        </div>
+ 
+</body>
+
+</html>
